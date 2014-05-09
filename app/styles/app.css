@@ -1,0 +1,52 @@
+html {
+  background: #fff;
+}
+
+.backfaceVisibility {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+.data-surface {
+    background: #ff3236; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ff3236 0%, #1e5799 5%, #2989d8 50%, #f98f31 96%, #02fc1f 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3236), color-stop(5%,#1e5799), color-stop(50%,#2989d8), color-stop(96%,#f98f31), color-stop(100%,#02fc1f)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ff3236 0%,#1e5799 5%,#2989d8 50%,#f98f31 96%,#02fc1f 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ff3236 0%,#1e5799 5%,#2989d8 50%,#f98f31 96%,#02fc1f 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ff3236 0%,#1e5799 5%,#2989d8 50%,#f98f31 96%,#02fc1f 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ff3236 0%,#1e5799 5%,#2989d8 50%,#f98f31 96%,#02fc1f 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3236', endColorstr='#02fc1f',GradientType=0 ); /* IE6-9 */
+
+}
+
+.x-axis .label {
+    position: absolute;
+    padding: 3px;
+    background-color: white;
+    width: 150px;
+    height: 12px;
+}
+
+.x-axis .label.min-label {
+    left: 0;
+    text-align: left;
+}
+
+.x-axis .label.max-label {
+    right: 0;
+    text-align: right;
+}
+
+.x-axis.x-axis-top.with-ticks .label {
+    bottom: 8px;
+}
+.x-axis.x-axis-top .label {
+    bottom: 0;
+}
+
+.x-axis.x-axis-bottom.with-ticks .label {
+    top: 8px;
+}
+.x-axis.x-axis-bottom .label {
+    top: 0;
+}
