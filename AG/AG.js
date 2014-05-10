@@ -5,6 +5,7 @@ var StateModifier = require('famous/modifiers/StateModifier');
 var ContainerSurface = require('famous/surfaces/ContainerSurface');
 var Surface = require('famous/core/Surface');
 var Transform = require('famous/core/Transform');
+var CanvasSurface = require('famous/surfaces/CanvasSurface');
 
 var AG = {
     Graph: Graph,

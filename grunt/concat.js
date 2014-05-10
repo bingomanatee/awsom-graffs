@@ -29,7 +29,11 @@ module.exports = {
             footer: "\nmodule.exports = AG;\n" +
                 "});"
         },
-        src: [ 'AG/AG.js', 'AG/Graph.js','AG/GraphBody.js', 'AG/GraphXaxis.js','AG/GraphYaxis.js', 'AG/Title.js' ],
+        src: [
+            'AG/AG.js', 'AG/Graph.js', 'AG/GraphBody.js',
+            'AG/_axisMixin.js', 'AG/GraphXaxis.js', 'AG/GraphYaxis.js',
+            'AG/Title.js'
+        ],
         dest: 'AG/AG.min.js'
     }
 };
